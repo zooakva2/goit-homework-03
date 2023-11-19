@@ -30,6 +30,10 @@ img {
     display: block;
 }
 
+button {
+    display: block;
+}
+
 .container {
     max-width: 100%;
     width: 1158px;
@@ -67,6 +71,7 @@ img {
     display: flex;
     list-style-type: none;
     gap: 40px;
+    padding: 24px 0 24px;
 }
 
 .logo{
@@ -153,10 +158,10 @@ img {
 }
 .order-button:hover {
     background-color: #404BBF;
+    display: block;
 }
 button {
     cursor: pointer;
-    display: block;
 }
 .order-button:focus {
     background-color: #404bbf;
@@ -204,7 +209,7 @@ button {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
-    margin-top: 120px;
+    margin-bottom: 72px;
 }
 
 .section-main-title{
@@ -261,22 +266,21 @@ button {
     line-height: 1.5;
     text-align: center; 
 }
-.menu-4 {
+.text-four {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
+}
+.menu-four {
     display: flex;
     flex-wrap: wrap;
     list-style-type: none;
     gap: 8px;
-}
-.item-4:first-child{
-    margin-left: 156px;
-}
-.item-4{
-    gap: 24px;
-    margin-top: 72px;
-}
-.item-4:nth-child(4){
-    margin-left: 156px;
-    margin-bottom: 156px;
+    padding-top: 120px; 
+    padding-bottom: 120px;
+    column-gap: 24px;
+    row-gap: 48px;
 }
 .footer {
     background-color: #2e2f42;
