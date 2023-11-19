@@ -51,14 +51,14 @@ img {
 .header .container{
     display: flex;
     gap: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .nav {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    margin-top: 24px;
-    margin-bottom: 24px;
     align-items: center;
     gap: 40px;
 }
@@ -66,8 +66,6 @@ img {
 .menu-one{
     display: flex;
     list-style-type: none;
-    margin-top: 24px;
-    margin-bottom: 24px;
     gap: 40px;
 }
 
@@ -80,17 +78,10 @@ img {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-decoration: none;
-    margin-left: 156px;
-    margin-top: 24px;
-    margin-bottom: 24px;
     margin-right: 76px
 }
 .logo-span {
     color: #2e2f42;
-}
-.line:first-child{
-    margin-top: 24px;
-    margin-bottom: 24px;
 }
 .line{
     color: #2e2f42;
@@ -98,9 +89,7 @@ img {
     line-height: 1.5;
     text-decoration: none;
     list-style-type: none;
-    margin-left: 40px;
-    margin-top: 24px;
-    margin-bottom: 24px;
+    padding: 24px 0 24px;
 }
 .line-span {
     color: #2e2f42;
@@ -122,19 +111,9 @@ img {
     flex-direction: row;
     font-style: normal;
     justify-content: flex-start;
-    margin-top: 24px;
-    margin-bottom: 24px;
-}
-.line-three:first-child {
-    margin-left: 332px;
-}
-.line-three:last-child{
-    margin-right: 156px;
 }
 .line-three{
     gap: 40px;
-    margin-top: 24px;
-    margin-bottom: 24px;
     line-height: 1.5;
     color: #434455;
     text-decoration: none;
@@ -170,12 +149,14 @@ img {
     height: 56px;
     border: none;
     border-radius: 4px;
+    display: block;
 }
 .order-button:hover {
     background-color: #404BBF;
 }
 button {
     cursor: pointer;
+    display: block;
 }
 .order-button:focus {
     background-color: #404bbf;
@@ -188,17 +169,7 @@ button {
     flex-wrap: nowrap;
     list-style-type: none;
     gap: 24px;
-}
-.item-two:first-child {
-  margin-left: 156px;
-}
-.item-two {
-    margin-top: 120px;
-    margin-bottom: 120px;
     width: calc((100% - 72px) / 4);
-}
-.item-two:last-child {
-    margin-right: 156px;
 }
 .ul {
     display: flex;
@@ -206,11 +177,12 @@ button {
     list-style-type: none;
     gap: 8px;
 }
-.section-two-main-title.visually-hidden {
+.section-two-main-title{
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0,02em;
     text-align: center;
+    visibility: hidden;
 }
 .title {
     color: #2E2F42;
@@ -249,6 +221,20 @@ button {
 
 .section-three {
     background-color: #F4F4FD;
+    padding: 120px 0 120px;
+}
+
+.section-menu-three {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    gap: 24px;
+    border-radius: 0px 0px 4px 4px;
+}
+
+.section-tree-main-text {
+    padding: 32px 0 32px ;
+
 }
 
 .box {
@@ -260,12 +246,6 @@ button {
     margin-bottom: 120px;
     gap: 24px;
 }
-.section-three-ul:first-child{
-    margin-left: 156px;
-}
-.section-three-ul:last-child{
-    margin-right: 156px;
-}
 .section-three-title {
     background-color: #FFFFFF;
     color: #2E2F42;
@@ -273,11 +253,13 @@ button {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    text-align: center;
+    margin-bottom: 8px;
 }
 .section-three-text {
     background-color: #FFFFFF;
-    font-weight: 400;
     line-height: 1.5;
+    text-align: center; 
 }
 .menu-4 {
     display: flex;
@@ -310,7 +292,6 @@ button {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-decoration: none;
-    margin-left: 156px;
     display: inline-block;
     margin-bottom: 16px;
 }
@@ -320,6 +301,4 @@ button {
 .footer-text {
     color: #F4F4FD;
     line-height: 1.5;
-    margin-left: 156px;
-    margin-right: 1020px;
 }
